@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|PT+Sans:700,700i&subset=latin-ext');
+
+body {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.logo {
+    overflow: hidden;
+    color: #018996;
+    padding: 0.5em 2em;
+    background: #ffffff; 
+    background: -moz-linear-gradient(left, #ffffff 0%, #184265 100%); 
+    background: -webkit-linear-gradient(left, #ffffff 0%,#184265 100%); 
+    background: linear-gradient(to right, #ffffff 0%,#184265 100%);
+}
+
+.logo img {
+    width: 25em;
+    height: 5em;
+    margin: 1.8em 1em;
+}
+
+.menu {
+    width: 100%;
+    padding: 0.3em 0;
+    background-color: #4c708c;
+    text-align: center;
+    border-top: 1px solid #001e2d;
+    border-bottom: 1px solid #001e2d;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 1.3em;
+    height: 2em;
+    line-height: 200%;
+    display: inline-block;
+    
+}
+
+.menu ul a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.menu > ul > li {
+    float: left;
+    width: 8.5em;
+    height: 2em;
+    border-right: 1px dashed #ffffff;
+    
+}
+
+.menu > ul > li:first-child {
+    border-left: 1px dashed #ffffff;
+}
+
+.menu > ul > li:hover {
+    background-color: #001e2d;
+}
+
+.menu > ul > li > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 2em;
+    font-size: 1em;
+    display: none;
+}
+
+.menu > ul > li:hover > ul {
+    display: block;
+}
+
+.menu > ul > li > ul > li {
+    background-color: #4c708c;
+    position: relative;
+    z-index: 999;
+    border-top: 1px dashed #ffffff;
+}
+
+.menu > ul > li > ul > li:hover {
+    background-color: #001e2d;
+}
+
+.active {
+    background-color: #001e2d;
+}
+
+#services {
+    width: 90%;
+    margin: auto;
+    padding: 4em 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+        
+}
+
+.wrapper {
+    margin: 0;
+    background: #000000; 
+    background: -moz-linear-gradient(top, #000000 0%, #7db9e8 100%); 
+    background: -webkit-linear-gradient(top, #000000 0%,#7db9e8 100%); 
+    background: linear-gradient(to bottom, #000000 0%,#7db9e8 100%);
+    color: #fff;
+}
+
+#services img {
+    width: 100%;
+    border-radius: 50% 50%;
+    height: 100%;
+    
+}
+
+#services p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.service-computers {
+    width: 23%;
+    height: auto;
+    margin: 2em;
+}
+
+.serve {
+    width: 23%;
+    height: auto;
+    margin: 2em;
+}
+
+#services div{
+    transition: all 1s ease;
+}
+
+#services div:hover {
+    transform: scale(1.2);
+}
+
+.item {
+    height: 19em;
+    background-color: #ffffff;
+}
+
+.footer-all {
+    background-color: #001e2d;
+    color: #C6C9E8;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.footer-all h3 {
+    font-weight: 700;
+}
+
+.contact {
+    margin: 1.5em 4.5em;
+}
+
+.address {
+    margin: 1.5em 4.5em;
+}
+
+.shop {
+    margin: 1.5em 4.5em;
+}
+ 
+.tech img{
+    width: 100%;
+    background-color: #000000;
+    height: 18em;
+}
+
+
+.instal {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3em 3em 5em 20em;
+    background: #000000; 
+    background: -moz-linear-gradient(top, #000000 0%, #7db9e8 100%); 
+    background: -webkit-linear-gradient(top, #000000 0%,#7db9e8 100%); 
+    background: linear-gradient(to bottom, #000000 0%,#7db9e8 100%);
+    color: #fff;
+    
+}
+
+.instal h1{
+    margin-bottom: 1.7em;
+}
+
+.instal ul {
+    list-style: none;
+}
+
+.instal li::before{
+    content: '>';
+    margin-right: 1em;
+}
+
+#wrapper-maps-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5em 0;
+    background: -moz-linear-gradient(top, #000000 0%, #7db9e8 100%); 
+    background: -webkit-linear-gradient(top, #000000 0%,#7db9e8 100%); 
+    background: linear-gradient(to bottom, #000000 0%,#7db9e8 100%);
+    color: #fff;
+}
+
+.wrapper-contact {
+    margin-right: 10em;
+    margin-top: 6em;
+}
+
+.wrapper-contact h3 {
+    text-transform: uppercase;
+}
+
+.wrapper-contact a {
+    color: #ffffff;
+}
+
+.wrapper-contact a:hover {
+    color: #001e2d; 
+}
+
+.law {
+    background-color: #001e2d;
+    padding: 0.7em 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.carousel-indicators li {
+    background-color: #001e2d;
+    border-color: #018996;
+}
+
+#carousel-example-generic img {
+    margin: 0 auto;
+}
+
